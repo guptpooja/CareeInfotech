@@ -1,0 +1,70 @@
+.logo{
+    height: 100px !important ;
+    width: 300px !important;
+    
+}
+/* .navbar{
+    position: fixed;
+    background-color: #fff
+} */
+.bag{
+    width: 100%;
+    height: 75vh;
+    background: url('https://www.mytechblog.net/wp-content/uploads/2022/01/1662_original.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.375rem 0;
+    
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    border-radius:20px !important;
+    /* padding-left: ; */
+}
+.card{
+    width:20rem !important;
+    height: 20rem !important;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 30px rgba(70, 69, 69, 0.614);
+    background-color: rgba(79, 21, 155, 0.626);
+    border: none;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgba(79, 21, 155, 0.626);
+    background: #a55be677;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: rgba(127, 48, 231, 0.868);;
+}
+.btn {
+    display: block;
+    position: absolute;
+    background: rgba(113, 41, 146, 0.491);
+}
+.btn:nth-child(1){
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(8, 20, 43, 0)), to(#2662d9));
+    background: linear-gradient(to left, rgba(8, 20, 43, 0), #2662d9);
+    -webkit-animation: 2s animateTop linear infinite;
+            animation: 2s animateTop linear infinite;
+}
