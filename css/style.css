@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .logo{
     height: 100px !important ;
     width: 300px !important;
@@ -34,7 +35,7 @@ button{
     height: 20rem !important;
     margin-bottom: 50px;
     margin-top: 30px;
-    box-shadow: 10px 10px 30px rgba(70, 69, 69, 0.614);
+    box-shadow: 10px 10px 30px rgba(107, 56, 56, 0.614);
     background-color: rgba(79, 21, 155, 0.626);
     border: none;
 }
@@ -50,21 +51,93 @@ button{
     font-size: 16px;
     transition: 0.5s;
 }
-.btn:hover{
+/* .btn:hover{
     color: rgba(127, 48, 231, 0.868);;
-}
-.btn {
+} */
+/* .btn {
     display: block;
     position: absolute;
     background: rgba(113, 41, 146, 0.491);
+} */
+
+/* Animation is Strat Here.... */
+
+.footer-col{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif ;
 }
-.btn:nth-child(1){
-    top: 0px;
-    left: 0px;
-    width: 100%;
+
+ul{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+    
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffffff;
+    text-transform: capitalize;
+    margin-bottom:35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ffffff;
     height: 2px;
-    background: -webkit-gradient(linear, right top, left top, from(rgba(8, 20, 43, 0)), to(#2662d9));
-    background: linear-gradient(to left, rgba(8, 20, 43, 0), #2662d9);
-    -webkit-animation: 2s animateTop linear infinite;
-            animation: 2s animateTop linear infinite;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+     transition: all 00.3s ease;
+
+}
+.footer-col ul  li:hover{
+     color: #ffffff;
+     padding-left: 7px;
+}
+
+.footer-col .social-links a{
+    display:inline-block ;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0; 
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+
 }
