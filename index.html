@@ -12,10 +12,11 @@
   <link rel="shortcut icon" href="img/Untitled_design-modified-removebg-preview.png" class="w-100" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-  <div class="container-fluid" >
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="img/career logo1.png" class="w-25" alt=""></a>
@@ -26,49 +27,147 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item mx-3">
-              <a class="nav-link active" aria-current="page" href="#">
-                <h3 class="text-dark">Home</h3>
+              <a class="nav-link active h3" aria-current="page" href="index.html">
+                Home
               </a>
             </li>
             <li class="nav-item  mx-3">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="aboutus.html">
                 <h3 class="text-dark">About</h3>
               </a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="coures.html">
                 <h3 class="text-dark">Courses</h3>
               </a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">
-                <h3 class="text-dark">Trainers</h3>
+              <a class="nav-link" href="https://www.devicecares.com/" target="_blank">
+                <h3 class="text-dark">Service</h3>
               </a>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">
-                <h3 class="text-dark">Events</h3>
-              </a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">
-                <h3 class="text-dark">Pricing</h3>
-              </a>
-            </li>
+
             <li class="nav-item mx-3">
               <a class="nav-link" href="#">
                 <h3 class="text-dark">Contact</h3>
               </a>
             </li>
           </ul>
-
         </div>
       </div>
+      <button class="btn btn-outline-dark bxx" type="button" data-bs-toggle="modal" data-bs-target="#modal2">Login</button>
+      <div class="modal" id="modal2">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                      <div class="card-body p-5 text-center">
+
+                        <div class="mb-md-5 mt-md-4">
+
+                          <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                          <p class="text-white-50 mb-5">Please enter your login and password!</p>
+
+                          <div class="form-outline form-white mb-4">
+                            <input type="email" id="typeEmailX" class="form-control form-control-lg">
+                            <label class="form-label" for="typeEmailX">Email</label>
+                          </div>
+
+                          <div class="form-outline form-white mb-4">
+                            <input type="password" id="typePasswordX" class="form-control form-control-lg">
+                            <label class="form-label" for="typePasswordX">Password</label>
+                          </div>
+
+                          <p class="small"><a class="text-white-50" href="#!">Forgot
+                              password?</a>
+                          </p>
+
+                          <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+
+                          <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                            <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                            <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                          </div>
+
+                          <p class="mb-0">Don't have an account? <a href="" data-bs-toggle="modal"
+                              data-bs-target="#modal5" class="text-white-50 fw-bold ">Register Here</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" id="modal5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="container-fluid mt-5">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                      <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                          <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+                          <form>
+
+                            <div class="form-outline mb-3">
+                              <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example1cg">Your Name</label>
+                            </div>
+
+                            <div class="form-outline mb-3">
+                              <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example3cg">Your Email</label>
+                            </div>
+
+                            <div class="form-outline mb-3">
+                              <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example4cg">Password</label>
+                            </div>
+
+                            <div class="form-outline mb-3">
+                              <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                            </div>
+
+                            <div class="form-check d-flex justify-content-center mb-5">
+                              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                              <label class="form-check-label" for="form2Example3g">
+                                I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                              </label>
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                              <button type="button"
+                                class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                            </div>
+
+                            <p class="text-center text-muted mt-3 mb-0">Have already an account? <a href="index.html"
+                                class="fw-bold text-body"><u>Login here</u></a></p>
+
+                          </form>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
     </nav>
-
-    <!-- heading close -->
-
   </div>
+  <!-- heading close -->
 
 
   <!-- <section id="bag"> -->
@@ -76,96 +175,130 @@
     <div class="container bag-text mt-2">
       <div class="row text-right text-light mt-2 mb-3">
         <div class="col-lg-6 col-md-6">
-          <h2 class="text-right mt-5" data-aos="fade-up" data-aos-duration="1000">Learning Today,<br>
+          <h2 class="text-right mt-5" data-aos="zoom-in" data-aos-duration="2000">Learning Today,<br>
             <b>Leading Tomorrow</b> <br>
             We are team of talented designers making<br> websites with Bootstrap.
           </h2>
           <div class="col-lg-6 col-md-6 mt-5">
-            <button class="btn btn-outline-light  p-1">
-              <a href="html"></a>Learn More</button>
+            <button class="btn btn-outline-dark color btn-xxl  p-1">
+              <a href=""></a><span>Learn more</span></button>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- </section> -->
+
+
+
   <div class="conatiner mt-5">
     <div class="row mt-5">
-      <div class="col-md-6 justify-content-center">
+      <div class="col-md-6 justify-content-center" data-aos="slide-left" data-aos-duration="3000">
         <p>
         <h3 class="mx-2 text-center">Online IT Training</h3>
-        <ul><i class="fa-solid fa-star text-primary"></i> We also provide our prospective student wiith the option to try the various programs and  courses that we offer through  our free demo service.
+        <ul><i class="fa-solid fa-star text-primary"></i> Our online IT training programs are designed to allow our
+          students to study anytime and anywhere in an affordable and convenient manner.
           <br>
         </ul>
         <br>
-        <ul><i class="fa-solid fa-star text-primary"></i>Using THis serrvice Students can test the course quality and get a better UnderStanding.</ul>
-       
+        <ul><i class="fa-solid fa-star text-primary"></i>The course structure for each program is carefully designed to
+          ensure active engagement from students even in online mode. </ul>
+
+        </ul>
+        <br>
+        <ul><i class="fa-solid fa-star text-primary"></i>The students are provided with Example exposure to interactive,
+          pragmatic learning opportunities in addition to strong theoretical grounding. </ul>
+
+
       </div>
-      <div class="col-md-6">
+
+      <div class="col-md-6" data-aos="slide-right" data-aos-duration="3000">
         <img src="img/img4.jpg" class="w-100" alt="">
       </div>
     </div>
   </div>
   <!-- box is end -->
+
+
+
   <!-- counter -->
+
+
+
+
+
   <section id="counter">
-    <section class="counter-section mt-5">
+    <section class="counter-section mt-5 mb-5 bg-dark justify-content-center">
       <div class="container">
-        <div class="row text-center ">
-          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5 mt-5">
             <h2>
               <span id="count1"></span>+
             </h2>
-            <p>Students</p>
+            <p class="text-light">Students</p>
           </div>
 
-          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5 mt-5">
             <h2>
               <span id="count2"></span>+
             </h2>
-            <p>Courses</p>
+            <p class="text-light">Courses</p>
           </div>
-          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5 mt-5">
             <h2>
               <span id="count3"></span>+
             </h2>
-            <p>Events</p>
+            <p class="text-light">Events</p>
           </div>
-          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5 mt-5">
             <h2>
               <span id="count4"></span>+
             </h2>
-            <p>Trainers</p>
+            <p class="text-light">Trainers</p>
           </div>
         </div>
       </div>
     </section>
   </section>
 
+
+
+
   <!-- counter end -->
+
+
+
   <!-- card for corcese -->
 
-  <div class="container">
+
+
+
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 col-sm-4 col-lg-4">
-        <div class="card mx-5">
-          <div class="card-body textt">
+        <div class="card mx-5 bx1" data-aos="fade-down" data-aos-duration="2000">
+          <div class="card-body">
             <h1 class="card-title text-center"><i class="fa-brands fa-java"></i>Java</h1>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic? Fuga,
-              voluptates optio quam nobis ipsum, explicabo dolorum fugit consectetur nemo iure blanditiis in velit
-              officia ut magni sint rerum.</p>
+            <p class="card-text">Master Data Structures and Algorithms With the Scaler Academy Program Secure product
+              interviews
+              with understanding of crucial data structures and algorithms, and their implementation Build intuition on
+              the inner
+              workings of various DSA, a foundational skill for any top software engineer Clear your concepts and know
+              which data structure to use for the most optimum build</p>
             <a href="#" class="btn">View</a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4 col-lg-4 col-sm-4">
-        <div class="card mx-5">
-          <div class="card-body textt">
+        <div class="card mx-5 bx1" data-aos="fade-down" data-aos-duration="2000">
+          <div class="card-body">
             <h1 class="card-title text-center"><i class="fa-brands fa-angular"></i>Angular</h1>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic? Fuga,
-              voluptates optio quam nobis ipsum, explicabo dolorum fugit consectetur nemo iure blanditiis in velit
-              officia ut magni sint rerum.</p>
+            <p class="card-text">Getting started with Angular Welcome to Angular! This tutorial introduces you to the
+              essentials of Angular by walking you through building an e-commerce site with a catalog, shopping cart,
+              and check-out form. To help you get started right away, this tutorial uses a ready-made application that
+              you can examine and modify interactively on StackBlitz—without having to set up a local work environment..
+            </p>
             <a href="#" class="btn">
               view
             </a>
@@ -173,17 +306,18 @@
         </div>
       </div>
 
-        <div class="col-md-4 col-lg-4 col-sm-4">
-          <div class="card mx-5">
-            <div class="card-body textt">
-              <h1 class="card-title text-center"><i class="fa-brands fa-aws"></i>AWS</h1>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic? Fuga,
-                voluptates optio quam nobis ipsum, explicabo dolorum fugit consectetur nemo iure blanditiis in velit
-                officia ut magni sint rerum.</p>
-              <a href="#" class="btn">View</a>
-            </div>
+      <div class="col-md-4 col-lg-4 col-sm-4">
+        <div class="card mx-5 bx1" data-aos="fade-down" data-aos-duration="2000">
+          <div class="card-body textt">
+            <h1 class="card-title text-center"><i class="fa-brands fa-aws"></i>AWS</h1>
+            <p class="card-text">he development of the DevOps model seeks to combine practices from software development
+              and IT operation. The main advantage the DevOps process has over traditional systems development is speed.
+              When implemented correctly, DevOps can reduce the life cycle of systems development while enabling
+              continuous delivery. </p>
+            <a href="#" class="btn">View</a>
           </div>
         </div>
+      </div>
 
     </div>
   </div>
@@ -192,24 +326,25 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-4 col-lg-4">
-        <div class="card mx-5">
+        <div class="card mx-5 bx1 " data-aos="fade-up" data-aos-duration="2000">
           <div class="card-body textt">
             <h1 class="card-title text-center"><i class="fa-solid fa-power-off"></i>Spring Boot</h1>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic? Fuga,
-              voluptates optio quam nobis ipsum, explicabo dolorum fugit consectetur nemo iure blanditiis in velit
-              officia ut magni sint rerum.</p>
-            <a href="#" class="btn">View</a>
+            <p class="card-text">Though marker interfaces are still in use, they very likely point to a code smell and
+              should be used carefully. The main reason for this is that they blur the lines about what an interface
+              represents since markers don't define any behavior. Newer development favors annotations to solve some of
+              the same problems.</p>
+            <a href="#" class="btn mt-5">View</a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4 col-lg-4 col-sm-4">
-        <div class="card mx-5">
+        <div class="card mx-5 bx1" data-aos="fade-up" data-aos-duration="2000">
           <div class="card-body textt p-4">
             <h1 class="card-title text-center"><i class="fa-solid fa-laptop-code"></i>Java Full Stack</h1>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic? Fuga,
-              voluptates optio qua iure blanditiis in velit
-              officia ut magni sint rerum.</p>
+            <p class="card-text">Become a Full Stack Developer with Scaler Academy Program Upskill in DSA & System
+              Design with specialization in Full Stack Development Build real-world projects by mastering React, MERN,
+              JavaScript, etc. Learn the essential Full Stack development concepts from scratch.</p>
             <a href="#" class="btn">
               view
             </a>
@@ -217,26 +352,26 @@
         </div>
       </div>
 
-        <div class="col-md-4 col-lg-4 col-sm-4 w-45">
-          <div class="card mx-5">
-            <div class="card-body textt">
-              <h1 class="card-title text-center"><i class="fa-brands fa-js-square"></i>Design Patterns in Java</h1>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic? Fuga,
-                voluptates optio quaugit consectetur nemo iure blanditiis in velit
-                officia ut magni sint rerum.</p>
-              <a href="#" class="btn">View</a>
-            </div>
+      <div class="col-md-4 col-lg-4 col-sm-4 w-45">
+        <div class="card mx-5 bx1" data-aos="fade-up" data-aos-duration="2000">
+          <div class="card-body textt">
+            <h1 class="card-title text-center"><i class="fa-brands fa-js-square"></i>Design Patterns in Java</h1>
+            <p class="card-text">Java Project Ideas - Strengthen your Resume with Real-time Projects Java - one of the
+              most popular programming languages. After learning Java, it's time to master it with real-time Java
+              project ideas. Work on real-time Java projects and stand out from the crowd.</p>
+            <a href="#" class="btn mt-5">View</a>
           </div>
         </div>
+      </div>
 
     </div>
   </div>
   <!--  -->
-  
-  <!-- card  -->
-<!-- footer -->
 
-<!-- <div class="container-fluid">
+  <!-- card  -->
+  <!-- footer -->
+
+  <!-- <div class="container-fluid">
   <div class="row justify-content-center pt-5" style="background-color: #0d0909;">
       <div class="col-md-8 col-sm-8 col-lg-8"><br><br>
           <h2>POOJA LADIES TAILOR</h2>
@@ -257,69 +392,69 @@
   </div>
 </div> -->
 
-<footer class="footer">
-  <div class="container w-1170px me-auto">
+  <footer class="footer">
+    <div class="container w-1170px me-auto">
       <div class="row ">
-          <div class="footer-col">
-              <h4>About us</h4>
-              <ul>
+        <div class="footer-col ">
+          <h4>About us</h4>
+          <ul>
 
-                  <li><a href="#"></a>Career Infotech</li>
-                  <li><a href="#"></a>IT is the No.1</li>
-                  <li><a href="#"></a>quality training</li>
-                  <li><a href="#"></a>institute in</li>
+            <li><a href="#"></a>Career Infotech</li>
+            <li><a href="#"></a>IT is the No.1</li>
+            <li><a href="#"></a>quality training</li>
+            <li><a href="#"></a>institute in</li>
 
-              </ul>
+          </ul>
+        </div>
+
+        <!-- <div class="row"> -->
+        <div class="footer-col">
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="#"></a>home</li>
+            <li><a href="#"></a>Service</li>
+            <li><a href="#"></a>Courses</li>
+            <li><a href="#"></a>New Batches</li>
+          </ul>
+        </div>
+
+        <!-- <div class="row"> -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+
+            <li><a href="#"></a>Navi mumbai +918485080130/+91 8169754483</li>
+
+          </ul>
+        </div>
+
+        <!-- <div class="row"> -->
+        <div class="footer-col">
+          <h4>Connect Social</h4>
+          <ul>
+
+            <li><a href="#"></a>Get latest</li>
+            <li><a href="#"></a>updates, news,</li>
+            <li><a href="#"></a>surveys &</li>
+            <li><a href="#"></a>offer on</li>
+
+          </ul>
+        </div>
+
+
+        <!-- <div class="row"> -->
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
           </div>
-
-          <!-- <div class="row"> -->
-              <div class="footer-col">
-                  <h4>Quick links</h4>
-                  <ul>
-                      <li><a href="#"></a>home</li>
-                      <li><a href="#"></a>Service</li>
-                      <li><a href="#"></a>Courses</li>
-                      <li><a href="#"></a>New Batches</li>
-                  </ul>
-              </div>
-
-              <!-- <div class="row"> -->
-                  <div class="footer-col">
-                      <h4>Contact Us</h4>
-                      <ul>
-
-                          <li><a href="#"></a>Navi mumbai +918485080130/+91 8169754483</li>
-
-                      </ul>
-                  </div>
-
-                  <!-- <div class="row"> -->
-                      <div class="footer-col">
-                          <h4>Connect Social</h4>
-                          <ul>
-
-                              <li><a href="#"></a>Get latest</li>
-                              <li><a href="#"></a>updates, news,</li>
-                              <li><a href="#"></a>surveys &</li>
-                              <li><a href="#"></a>offer on</li>
-                              
-                          </ul>
-                      </div>
-
-
-                      <!-- <div class="row"> -->
-                          <div class="footer-col">
-                              <h4>Follow us</h4>
-                             <div class="social-links">
-                                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                             </div>
-                          </div>
+        </div>
       </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
