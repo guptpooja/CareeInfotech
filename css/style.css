@@ -180,29 +180,14 @@ ul{
 .bx6{
     /* background-color: 	  #b2004c */
     background-color:#F0F0F0;
-
-    /* #a60059
-    #990066
-    #8c0073
-    #800080
-    #73008c
-    #660099
-    #5900a6
-    #4d00b2
-    #4000bf */
-;
 }
 .bx7{
-    /* background: linear-gradient(to top left, #666633 0%, #ff99cc 100%) */
     background: linear-gradient(to right, #000066 55%, #333300 99%);
     color: #ffff;
     border-radius: 20px !important;
 
 }
 .bx9{
-    /* background: linear-gradient(to bottom left, #666633 0%, #ff99cc 50%); */
-    /* background: linear-gradient(to bottom left, #ffffff 0%, #333300 50%); */
-    /* background: linear-gradient(to right, #000066 55%, #333300 99%); */
     background: linear-gradient(to right, #000099 0%, #000000 101%);
     border-radius: 20px !important;
 }
@@ -226,8 +211,7 @@ ul{
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
         }
-       /* .TR {
-            background-color:transparent !important;
-            border:none !important;
-
-        } */
+        .modal-content{
+            background-color: transparent !important;
+            border: none !important;
+        }
