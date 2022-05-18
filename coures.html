@@ -20,49 +20,165 @@
 
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
-                <a class="navbar-brand" href="#">
-                    <img src="img/career logo1.png" class="img-fluid" style="width:10.5rem;" alt="">
+          <a class="navbar-brand" href="#">
+            <img src="img/career logo1.png" class="img-fluid" style="width:10.5rem;" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a class="nav-link active h3" aria-current="page" href="first.html">
+                  Home
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item mx-3">
-                            <a class="nav-link active h3" aria-current="page" href="first.html">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item  mx-3">
-                            <a class="nav-link" href="aboutus.html">
-                                <h3 class="text-dark">About</h3>
-                            </a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="coures.html">
-                                <h3 class="text-dark">Courses</h3>
-                            </a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="https://www.devicecares.com/" target="_blank">
-                                <h3 class="text-dark">Service</h3>
-                            </a>
-                        </li>
-
-                        
-                    </ul>
+              </li>
+              <li class="nav-item  mx-3">
+                <a class="nav-link" href="aboutus.html">
+                  <h3 class="text-dark">About</h3>
+                </a>
+              </li>
+    
+              <li class="nav-item  mx-3">
+                <a class="nav-link" href="coures.html">
+                  <h3 class="text-dark">Courses</h3>
+                </a>
+              </li>
+    
+    
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="https://www.devicecares.com/" target="_blank">
+                  <h3 class="text-dark">Service</h3>
+                </a>
+              </li>
+    
+    
+    
+              <button class="btn btn-outline-dark" type="button" data-bs-toggle="modal"
+                data-bs-target="#modal2">Login</button>
+            </ul>
+          </div>
+          <div class="modal" id="modal2">
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                      <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                          <div class="card-body p-5 text-center">
+    
+                            <div class="mb-md-5 mt-md-4">
+    
+                              <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                              <p class="text-white-50 mb-5">Please enter your login and password!</p>
+    
+                              <div class="form-outline form-white mb-4">
+                                <input type="email" id="typeEmailX" class="form-control form-control-lg">
+                                <label class="form-label" for="typeEmailX">Email</label>
+                              </div>
+    
+                              <div class="form-outline form-white mb-4">
+                                <input type="password" id="typePasswordX" class="form-control form-control-lg">
+                                <label class="form-label" for="typePasswordX">Password</label>
+                              </div>
+    
+                              <p class="small"><a class="text-white-50" href="#!">Forgot
+                                  password?</a>
+                              </p>
+    
+                              <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+    
+                              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                                <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                                <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                                <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                              </div>
+    
+                              <p class="mb-0">Don't have an account? <a href="" data-bs-toggle="modal"
+                                  data-bs-target="#modal5" class="text-white-50 fw-bold ">Register Here</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+    
         </nav>
-    </div>
+        <div class="modal" id="modal5">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                      <div class="card" style="border-radius: 15px;">
+                        <div class="card-body">
+                          <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+    
+                          <form>
+    
+                            <div class="form-outline mb-3">
+                              <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example1cg">Your Name</label>
+                            </div>
+    
+                            <div class="form-outline mb-3">
+                              <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example3cg">Your Email</label>
+                            </div>
+    
+                            <div class="form-outline mb-3">
+                              <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example4cg">Password</label>
+                            </div>
+    
+                            <div class="form-outline mb-3">
+                              <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                            </div>
+    
+                            <div class="form-check d-flex justify-content-center mb-5">
+                              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                              <label class="form-check-label" for="form2Example3g">
+                                I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                              </label>
+                            </div>
+    
+                            <div class="d-flex justify-content-center">
+                              <button type="button"
+                                class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                            </div>
+    
+                            <p class="text-center text-muted mt-3 mb-0">Have already an account? <a href="first.html"
+                                class="fw-bold text-body"><u>Login here</u></a></p>
+    
+                          </form>
+    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
     <!-- navbar header -->
 
     <div class="container-fluid">
         <div class="row " style="background-color:#C0C0C0;">
             <div class="col-md-12 mt-5 mb-5">
                 <p class="text-center h2" data-aos="zoom-out-down" data-aos-duration="2000">Training Features</p>
-                <p class="text-center" >
+                <p class="text-center">
                     Our courses are strategically and innovatively designed, blending both theoretical and practical
                     teaching methods. The modules are carefully chosen to ensure the course is as industry-relevant as
                     possible.
@@ -71,183 +187,154 @@
         </div>
     </div>
     <!-- <p class="mt-5 text-center h2">Course</p> -->
-     <div class="container">
-         <div class="row" data-aos="zoom-in" data-aos-duration="2000">
-             <div class="col-md-12 ">
-                 <p class="h2 text-center mt-5">Java</p>
-             </div>
-             <div class="col-md-2 border border-primary">
+    <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="col-md-12 ">
+                <p class="h2 text-center mt-5">Java</p>
+            </div>
+            <div class="col-md-2 border border-primary">
                 <i class="fa-solid fa-angle-right"></i>
                 Core Java
-             </div>
-             <div class="col-md-2 border border-primary">
+            </div>
+            <div class="col-md-2 border border-primary">
                 <i class="fa-solid fa-angle-right"></i>
                 Adv Java
-             </div>
+            </div>
 
-             <div class="col-md-2 border border-primary">
+            <div class="col-md-2 border border-primary">
                 <i class="fa-solid fa-angle-right"></i>
                 Spring
-             </div>
-             
-             
-             <div class="col-md-2 border border-primary">
+            </div>
+
+
+            <div class="col-md-2 border border-primary">
                 <i class="fa-solid fa-angle-right"></i>
                 Spring MVC
-             </div>
-             
-             <div class="col-md-2 border border-primary">
+            </div>
+
+            <div class="col-md-2 border border-primary">
                 <i class="fa-solid fa-angle-right"></i>
                 Spring Boot
-             </div>
-             
-             <div class="col-md-2 border border-primary">
+            </div>
+
+            <div class="col-md-2 border border-primary">
                 <i class="fa-solid fa-angle-right"></i>
                 Hibernate
-             </div>
-             
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Webservices
-             </div>
+            </div>
 
-             <div class="col-md-3 border border-primary text-center">
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 RESTfulServices
-             </div>
+            </div>
 
-             <div class="col-md-3 border border-primary text-center">
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 MicroServiecs
-             </div>
+            </div>
 
-             <div class="col-md-3 border border-primary text-center">
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Data Structures
-             </div>
-             
+            </div>
 
-             <div class="col-md-12 border border-primary text-center">
+
+            <div class="col-md-12 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Aglogrithms
-             </div>
-
-             <!-- <div class="col-md-4 border border-primary text-center">
-                <i class="fa-solid fa-angle-right"></i>
-                Spring MVC
-             </div>
-
-             <div class="col-md-4 border border-primary text-center">
-                <i class="fa-solid fa-angle-right"></i>
-                Spring MVC
-             </div>
-
-             
-             <div class="col-md-6 border border-primary text-center">
-                <i class="fa-solid fa-angle-right"></i>
-                Spring MVC
-             </div>
-
-             <div class="col-md-6 border border-primary text-center">
-                <i class="fa-solid fa-angle-right"></i>
-                Spring MVC
-             </div>
+            </div>
+        </div>
+    </div>
 
 
-             <div class="col-md-12 border border-primary text-center">
-                <i class="fa-solid fa-angle-right"></i>
-                Spring MVC
-             </div>
-              -->
-
-         </div>
-     </div>
+    <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="col-md-12">
+                <p class="text-center h2 mt-4">Tools</p>
+            </div>
 
 
-     <div class="container">
-         <div class="row" data-aos="zoom-in" data-aos-duration="2000">
-             <div class="col-md-12">
-                 <p class="text-center h2 mt-4">Tools</p>
-             </div>
-
-
-             <div class="col-md-6 border border-primary text-center">
+            <div class="col-md-6 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Maven
-             </div>
-             <div class="col-md-6 border border-primary text-center">
+            </div>
+            <div class="col-md-6 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Gradle
-             </div>
+            </div>
 
 
-             <div class="col-md-4 border border-primary text-center">
+            <div class="col-md-4 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 SVN
-             </div>
-             <div class="col-md-4 border border-primary text-center">
+            </div>
+            <div class="col-md-4 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 GIT
-             </div>
-             <div class="col-md-4 border border-primary text-center">
+            </div>
+            <div class="col-md-4 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 BitBucket
-             </div>
+            </div>
 
-             <div class="col-md-3 border border-primary text-center">
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Log4J
-             </div>
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Splunk
-             </div>
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 JIRA
-             </div>
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 JUnit
-             </div>
+            </div>
 
 
-             <div class="col-md-2 border border-primary text-center">
+            <div class="col-md-2 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Mokito
-             </div>
-             <div class="col-md-2 border border-primary text-center">
+            </div>
+            <div class="col-md-2 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Jococo
-             </div>
-             <div class="col-md-2 border border-primary text-center">
+            </div>
+            <div class="col-md-2 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Jenkins
-             </div>
-             <div class="col-md-2 border border-primary text-center">
+            </div>
+            <div class="col-md-2 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Docker
-             </div>
-             <div class="col-md-2 border border-primary text-center">
+            </div>
+            <div class="col-md-2 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 SonarQube
-             </div>
-             <div class="col-md-2 border border-primary text-center">
+            </div>
+            <div class="col-md-2 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 GIT
-             </div>
+            </div>
 
 
-             <div class="col-md-12 border border-primary text-center">
+            <div class="col-md-12 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 SVN
-             </div>             
-         </div>
-     </div>
+            </div>
+        </div>
+    </div>
 
 
 
-     <div class="container mb-5 ">
+    <div class="container mb-5 ">
         <div class="row" data-aos="zoom-in" data-aos-duration="2000">
             <div class="col-md-12">
                 <p class="text-center h2 mt-4">UI</p>
@@ -255,74 +342,74 @@
             <div class="col-md-12 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 HTML
-             </div>
+            </div>
 
 
-             <div class="col-md-6 border border-primary text-center">
+            <div class="col-md-6 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 CSS
-             </div>
+            </div>
 
 
-             <div class="col-md-6 border border-primary text-center">
+            <div class="col-md-6 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Bootstrap
-             </div>
+            </div>
 
-             <div class="col-md-3 border border-primary text-center">
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 JavaScript
-             </div>
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 TypeScript
-             </div>
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 Angular
-             </div>
-             <div class="col-md-3 border border-primary text-center">
+            </div>
+            <div class="col-md-3 border border-primary text-center">
                 <i class="fa-solid fa-angle-right"></i>
                 React js
-             </div>
-        </div>
-        </div>
-        <div class="container">
-            <div class="row" data-aos="zoom-in" data-aos-duration="2000">
-                <div class="col-md-12">
-                    <p class="text-center h2 mt-4">Tools</p>
-                </div>
-                <div class="col-md-12 border border-primary text-center">
-                    <i class="fa-solid fa-angle-right"></i>
-                    Python
-                 </div>
- 
-                 <div class="col-md-6 border border-primary text-center">
-                    <i class="fa-solid fa-angle-right"></i>
-                    DecOps
-                 </div>
-                 <div class="col-md-6 border border-primary text-center">
-                    <i class="fa-solid fa-angle-right"></i>
-                    Aws
-                 </div>
-
-
-                 <div class="col-md-4 border border-primary text-center">
-                    <i class="fa-solid fa-angle-right"></i>
-                    Microsoft Azuure
-                 </div>
-
-                 <div class="col-md-4 border border-primary text-center">
-                    <i class="fa-solid fa-angle-right"></i>
-                    Data Science
-                 </div>
-
-                 <div class="col-md-4 border border-primary text-center ">
-                    <i class="fa-solid fa-angle-right"></i>
-                    Sales Force
-                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="col-md-12">
+                <p class="text-center h2 mt-4">Tools</p>
+            </div>
+            <div class="col-md-12 border border-primary text-center">
+                <i class="fa-solid fa-angle-right"></i>
+                Python
+            </div>
+
+            <div class="col-md-6 border border-primary text-center">
+                <i class="fa-solid fa-angle-right"></i>
+                DecOps
+            </div>
+            <div class="col-md-6 border border-primary text-center">
+                <i class="fa-solid fa-angle-right"></i>
+                Aws
+            </div>
+
+
+            <div class="col-md-4 border border-primary text-center">
+                <i class="fa-solid fa-angle-right"></i>
+                Microsoft Azuure
+            </div>
+
+            <div class="col-md-4 border border-primary text-center">
+                <i class="fa-solid fa-angle-right"></i>
+                Data Science
+            </div>
+
+            <div class="col-md-4 border border-primary text-center ">
+                <i class="fa-solid fa-angle-right"></i>
+                Sales Force
+            </div>
+        </div>
+    </div>
 
 
 
@@ -336,7 +423,7 @@
 
     <!-- FOOTER -->
     <div class="container-fluid">
-    <footer class="footer mt-5">
+        <footer class="footer mt-5">
             <div class="row ">
                 <div class="col-md-3 col-sm-3 col-lg-3 footer-col p-5 ">
                     <h4>About us</h4>
@@ -400,8 +487,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 
     <!-- aos -->
