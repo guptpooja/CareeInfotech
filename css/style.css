@@ -163,7 +163,7 @@ ul {
 }
 
 .bx9 {
-    background: linear-gradient(to right, #000099 0%, #000000 101%);
+    background: linear-gradient(to bottom, #000000 -10%, #ffffff 108%);
     border-radius: 20px !important;
     height: 25rem !important;
 }
@@ -194,3 +194,6 @@ ul {
     background-color: transparent !important;
     border: none !important;
 }
+/* .img-fluid{
+     width: 88px !important;
+} */
